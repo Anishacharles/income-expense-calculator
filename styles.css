@@ -1,0 +1,114 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-color: azure;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.summary p {
+    margin: 5px 0;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.entry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  
+
+}
+
+#type {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.entry-form input,
+.entry-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.entry-form button {
+
+    padding: 10px 15px;
+    background-color: rgb(47, 47, 247);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    font-size: 16px;
+
+}
+
+.entry-form button:hover {
+    background-color: rgb(11, 77, 99);
+
+}
+
+.filters {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.filter label {
+    margin: 0 10px;
+}
+
+.entries ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.entries li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #d8d2d2;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.entries button {
+
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
